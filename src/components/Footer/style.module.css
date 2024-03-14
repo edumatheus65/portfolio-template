@@ -8,13 +8,25 @@
   margin-bottom: 20px;
 }
 
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .flexbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .imageContent {
   display: flex;
   flex-direction: row;
@@ -43,6 +55,7 @@
   .footerContent {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -53,9 +66,17 @@
   .flexbox {
     align-items: flex-start;
   }
-
+  /* 
   .footer p {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     text-align: center;
+  } */
+
+  .email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }

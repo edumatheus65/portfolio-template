@@ -34,9 +34,6 @@ export const Footer = () => {
             </div>
           </div>
           <div>
-            {/* <p className="paragraph">
-              {t("direitos")} {user}
-            </p> */}
             <div className={styles.email}>
               <img src={emailIcon} />
               <p className="paragraph">bernardogvalim@gmail.com</p>

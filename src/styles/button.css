@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: center;
   /* gap: 1rem; */
+  color: var(--grey-scale1);
   height: 2.4375rem;
   font-family: var(--font-primary);
   font-size: clamp(0.4rem, 3vw, 1rem);
@@ -31,6 +32,9 @@
   border: 0.0625rem solid transparent;
 }
 
+.btn_outline:hover {
+  filter: brightness(1.5);
+}
 .btn:hover {
   background-color: var(--primary-color-hover);
 }

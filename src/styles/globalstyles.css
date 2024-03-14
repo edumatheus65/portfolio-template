@@ -1,6 +1,7 @@
 :root {
   --primary-color: #40c057;
   --primary-color-hover: #8ce99a;
+  --grey-scale1: #fff;
   --grey-scale2: #000; /* Definido como preto por padrão */
   --body-background: #fff; /* Definido como branco por padrão */
   --font-primary: "Inter", sans-serif;
@@ -12,7 +13,9 @@
   --body-background: #000;
   --primary-color: #40c057;
   --primary-color-hover: #8ce99a;
-  --grey-scale2: #fff; /* Mudado para branco no tema escuro */
+  --grey-scale1: #000;
+  --grey-scale2: #fff;
+  /* Mudado para branco no tema escuro */
 }
 
 body {

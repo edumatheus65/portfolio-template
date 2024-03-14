@@ -33,6 +33,7 @@ const resources = {
       Repositorio: "Repositório",
       Local: "Onde moro?",
       Download: "Baixar Currículo",
+      Contato: "Entrar em Contato",
     },
   },
   en: {
@@ -65,6 +66,7 @@ const resources = {
       Repositorio: "Repository",
       Local: "Where do I live ?",
       Download: "Download curriculum",
+      Contato: "Get in Touch",
     },
   },
 };

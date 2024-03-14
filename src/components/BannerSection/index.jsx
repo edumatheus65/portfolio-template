@@ -38,7 +38,7 @@ export const BannerSection = () => {
               <button className="btn" onClick={handleDownloadCv}>
                 {t("Download")}
               </button>
-              <button className="btn_outline">Entrar em Contato</button>
+              <button className="btn_outline">{t("Contato")}</button>
             </div>
           </div>
           <img src={profileImage} alt="ProfileImage"></img>

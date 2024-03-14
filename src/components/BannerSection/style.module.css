@@ -19,6 +19,21 @@
   justify-content: center;
 }
 
+/* .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
 @media (min-width: 830px) {
   .bannerInfo {
     display: flex;

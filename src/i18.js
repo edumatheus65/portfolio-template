@@ -32,6 +32,7 @@ const resources = {
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
       Local: "Onde moro?",
+      Download: "Baixar Currículo",
     },
   },
   en: {
@@ -63,6 +64,7 @@ const resources = {
       Aplicacao: "Application",
       Repositorio: "Repository",
       Local: "Where do I live ?",
+      Download: "Download curriculum",
     },
   },
 };

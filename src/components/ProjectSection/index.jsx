@@ -12,7 +12,6 @@ export const ProjectSection = () => {
           <h2 className="title md">{t("Projetos")}</h2>
           <ul className={styles.projectList}>
             {projects.map((project, index) => {
-              // Determinando a chave de tradução para a descrição do projeto
               const descriptionKey = `project${index + 1}Description`;
 
               return (

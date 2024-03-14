@@ -16,10 +16,10 @@ export const ProjectCard = ({
         <h3 className="title sm">{name}</h3>
         <p className="paragraph">{description}</p>
         <div className={styles.anchors}>
-          <a href={applicationLink} className="anchor">
+          <a href={applicationLink} target="_blank" className="anchor">
             {t("Aplicacao")}
           </a>
-          <a href={repositoryLink} className="anchor">
+          <a href={repositoryLink} target="_blank" className="anchor">
             {t("Repositorio")}
           </a>
         </div>

@@ -5,6 +5,7 @@ export const projects = [
     description: "Controle de estoque",
     applicationLink: "https://grupo7-fashion-store-two.vercel.app/",
     repositoryLink: "https://github.com/bervalim/fashion-store",
+    image: "",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ export const projects = [
     applicationLink:
       "https://desafio-fullstack-front-end-ber-valim.vercel.app/",
     repositoryLink: "https://github.com/bervalim/sign-contact-front-end",
+    image: "",
   },
   {
     id: 3,
@@ -20,6 +22,7 @@ export const projects = [
     description: "Cadastro de desenvolvedores/tecnologias",
     applicationLink: "https://m3-s4-entrega-kenzie-hub-bervalim.vercel.app/",
     repositoryLink: "https://github.com/bervalim/developers_hub",
+    image: "",
   },
   {
     id: 4,
@@ -27,5 +30,6 @@ export const projects = [
     description: "Api para reservas em restaurantes",
     applicationLink: "https://github.com/bervalim/RestaurantAPI",
     repositoryLink: "https://github.com/bervalim/RestaurantAPI",
+    image: "",
   },
 ];

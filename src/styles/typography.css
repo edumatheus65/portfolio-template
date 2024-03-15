@@ -10,19 +10,35 @@
 }
 
 .title.md {
-  font-size: clamp(1.1rem, 4vw, 2rem);
+  font-size: clamp(1.3rem, 4vw, 2rem);
 }
 
 .title.sm {
   font-size: clamp(0.7rem, 4vw, 1.1rem);
 }
 
+.title.headersModal {
+  color: #fff;
+}
+
+.title.modal {
+  font-size: clamp(0.9rem, 4vw, 1.4rem);
+  color: var(--primary-color);
+}
+
+.title.modal.two {
+  font-size: clamp(0.6rem, 4vw, 1rem);
+}
+
 .paragraph {
   font-size: clamp(0.4rem, 4vw, 0.8rem);
   font-weight: 400;
   color: var(--grey-scale2);
-  line-height: 1.8;
+  line-height: 2.1;
   font-family: var(--font-primary);
+}
+.paragraph.techs {
+  font-size: clamp(0.3rem, 4vw, 0.6rem);
 }
 
 .anchor {

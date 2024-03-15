@@ -25,15 +25,17 @@ const resources = {
       project2Description:
         "Nesta aplicação de cadastro de clientes e contatos, consumi uma API, de minha autoria. No front-end, desenvolvi uma tela de cadastro de cliente, tela de login e uma dashboard onde o cliente é capaz de gerenciar os seus contatos (CRUD)",
       project3Description:
-        "Esta API REST  é responsável por gerenciar os serviços de restaurantes. Através da aplicação, é possível realizar o cadastro de restaurantes e clientes interessados em realizar reservas em restaurantes. Além disso, é possível realizar a reserva e consultar os seus respectivos horários disponíveis no banco de dados do restaurante",
-      project4Description:
         "Com esta aplicação, tive por objetivo desenvolver uma dashboard para desenvolvedores com as features de cadastro e login. Nesta dashboard, era possível que o desenvolvedor cadastrasse,editasse e deletasse as suas tecnologias.",
+      project4Description:
+        "Esta API REST é responsável por gerenciar os serviços do restaurante. Através do aplicativo é possível cadastrar restaurantes e clientes interessados ​​em fazer reservas em restaurantes. Além disso, você pode fazer uma reserva e consultar os respectivos horários disponíveis na base de dados do restaurante.",
 
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
       Local: "Onde moro?",
       Download: "Baixar Currículo",
       Contato: "Entrar em Contato",
+      VerDetalhes: "Ver detalhes",
+      Detalhes: "Detalhes do Projeto",
     },
   },
   en: {
@@ -59,14 +61,17 @@ const resources = {
       project2Description:
         "In this application for registering customers and contacts, I used an API of my own creation. On the front-end, I developed a customer registration screen, login screen and a dashboard where the customer is able to manage their contacts (CRUD)",
       project3Description:
-        "This REST API is responsible for managing restaurant services. Through the application, it is possible to register restaurants and customers interested in making reservations at restaurants. In addition, you can make a reservation and check the respective available times in the restaurant's database.",
-      project4Description:
         "With this application, I aimed to develop a dashboard for developers with registration and login features. In this dashboard, it was possible for the developer to register, edit and delete their technologies.",
+      project4Description:
+        "This REST API is responsible for managing restaurant services. Through the application, it is possible to register restaurants and customers interested in making reservations at restaurants. In addition, you can make a reservation and check the respective available times in the restaurant's database.",
+
       Aplicacao: "Application",
       Repositorio: "Repository",
       Local: "Where do I live ?",
       Download: "Download curriculum",
       Contato: "Get in Touch",
+      VerDetalhes: "See details",
+      Detalhes: "Project details",
     },
   },
 };

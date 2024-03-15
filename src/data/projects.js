@@ -2,6 +2,8 @@ import kenzieHubImg from "../assets/Kbimage.png";
 import FashionStoreImg from "../assets/FsImage.png";
 import restaurantApiImg from "../assets/restaurantApi.jpg";
 import signContactImg from "../assets/signContactImage.png";
+import nuKenzieImg from "../assets/kenzieNu.png";
+import kenzieBurgueImg from "../assets/kenzieBurguer.png";
 
 export const projects = [
   {
@@ -47,5 +49,25 @@ export const projects = [
     repositoryLink: "https://github.com/bervalim/RestaurantAPI",
     image: restaurantApiImg,
     techs: ["Node Js", "TypeScript", "Express.js", "TypeORM", "PostgreSQL"],
+  },
+  {
+    id: 5,
+    name: "NU Kenzie",
+    description: "Aplicação de transações finaceiras",
+    applicationLink:
+      "https://m3-s2-entrega-portfolio-nu-kenzie-bervalim.vercel.app/",
+    repositoryLink: "https://github.com/bervalim/nukenzie",
+    image: nuKenzieImg,
+    techs: ["ReactJS", "Sass"],
+  },
+  {
+    id: 6,
+    name: "Hamburgueria",
+    description: "Aplicação de adição ao carrinho",
+    applicationLink:
+      "https://m3-s3-entrega-s3-template-hamburgueria-bervalim.vercel.app/",
+    repositoryLink: "https://github.com/bervalim/hamburgueria",
+    image: kenzieBurgueImg,
+    techs: ["ReactJS", "Sass", "Axios"],
   },
 ];

@@ -28,7 +28,10 @@ const resources = {
         "Com esta aplicação, tive por objetivo desenvolver uma dashboard para desenvolvedores com as features de cadastro e login. Nesta dashboard, era possível que o desenvolvedor cadastrasse,editasse e deletasse as suas tecnologias.",
       project4Description:
         "Esta API REST é responsável por gerenciar os serviços do restaurante. Através do aplicativo é possível cadastrar restaurantes e clientes interessados ​​em fazer reservas em restaurantes. Além disso, você pode fazer uma reserva e consultar os respectivos horários disponíveis na base de dados do restaurante.",
-
+      project5Description:
+        "Esta aplicação tem a funcionalidade de gerenciar gastos e cadastrar entradas e saídas.Nesta implementação, aperfeiçoei os conceitos de componentização,estados e renderização dinâmica.Com o formulário, criei um estado para abrigar as transações e, em seguida, criei um estado para abrigar as transações e funções para fazer a adição / ou subtração de valores",
+      project6Description:
+        "Esta aplicação tem a funcionalidade de acessar uma lista de produtos, provenientes de uma API e simular um carrinho de compras com React. Neste projeto, assimilei os conceitos de axios,Ciclos de vida dos componentes,persistências dos dados do carrinho com localStorage,Estados e UseEffect",
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
       Local: "Onde moro?",
@@ -64,7 +67,10 @@ const resources = {
         "With this application, I aimed to develop a dashboard for developers with registration and login features. In this dashboard, it was possible for the developer to register, edit and delete their technologies.",
       project4Description:
         "This REST API is responsible for managing restaurant services. Through the application, it is possible to register restaurants and customers interested in making reservations at restaurants. In addition, you can make a reservation and check the respective available times in the restaurant's database.",
-
+      project5Description:
+        "This application has the functionality to manage expenses and register inputs and outputs. In this implementation, I perfected the concepts of componentization, states and dynamic rendering. With the form, I created a state to house the transactions and, then, I created a state to house the transactions and functions to add/or subtract values",
+      project6Description:
+        "This application has the functionality to access a list of products from an API and simulate a shopping cart with React. In this project, I assimilated the concepts of axios, component life cycles, cart data persistence with localStorage, States and UseEffect",
       Aplicacao: "Application",
       Repositorio: "Repository",
       Local: "Where do I live ?",

@@ -32,6 +32,12 @@ const resources = {
         "Esta aplicação tem a funcionalidade de gerenciar gastos e cadastrar entradas e saídas.Nesta implementação, aperfeiçoei os conceitos de componentização,estados e renderização dinâmica.Com o formulário, criei um estado para abrigar as transações e, em seguida, criei um estado para abrigar as transações e funções para fazer a adição / ou subtração de valores",
       project6Description:
         "Esta aplicação tem a funcionalidade de acessar uma lista de produtos, provenientes de uma API e simular um carrinho de compras com React. Neste projeto, assimilei os conceitos de axios,Ciclos de vida dos componentes,persistências dos dados do carrinho com localStorage,Estados e UseEffect",
+      project7Description:
+        "Esta API REST é responsável por cadastrar clientes que podem ter muitos contatos associados.Cada cliente pode ter apenas um e-mail e telefone, enquanto cada contato pode ter vários e-mails e telefones",
+      project8Description:
+        "Esta API REST é responsável por fazer o gerenciamento de usuários e os respectivos cursos em que estão matriculados.Nesta apicação, aperfeiçoei os concentos de autenticação e autorização,bem como de serialização de dados.",
+      project9Description:
+        "Neste projeto,tive por objetivo desenvolver uma rede social para pets. Contruí 3 telas: login,cadastro e dashboard.Dentro da dashboard, o usuário é capaz de publicar,editar e excluir um post.Com esta aplicação, enriqueci os meus conhecimentos a respeito de consumo de APIs,autenticação e autorização.",
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
       Local: "Onde moro?",
@@ -71,6 +77,12 @@ const resources = {
         "This application has the functionality to manage expenses and register inputs and outputs. In this implementation, I perfected the concepts of componentization, states and dynamic rendering. With the form, I created a state to house the transactions and, then, I created a state to house the transactions and functions to add/or subtract values",
       project6Description:
         "This application has the functionality to access a list of products from an API and simulate a shopping cart with React. In this project, I assimilated the concepts of axios, component life cycles, cart data persistence with localStorage, States and UseEffect",
+      project7Description:
+        "This REST API is responsible for registering customers who may have many associated contacts. Each customer can only have one email and telephone number, while each contact can have several emails and telephone numbers",
+      project8Description:
+        "This REST API is responsible for managing users and the respective courses in which they are enrolled. In this application, I improved the authentication and authorization concepts, as well as data serialization.",
+      project9Description:
+        "In this project, I aimed to develop a social network for pets. I built 3 screens: login, registration and dashboard. Within the dashboard, the user is able to publish, edit and delete a post. With this application, I enriched my knowledge regarding API consumption, authentication and authorization.",
       Aplicacao: "Application",
       Repositorio: "Repository",
       Local: "Where do I live ?",

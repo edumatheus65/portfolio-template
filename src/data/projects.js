@@ -4,6 +4,9 @@ import restaurantApiImg from "../assets/restaurantApi.jpg";
 import signContactImg from "../assets/signContactImage.png";
 import nuKenzieImg from "../assets/kenzieNu.png";
 import kenzieBurgueImg from "../assets/kenzieBurguer.png";
+import signContactAPIImg from "../assets/signContactAPI.png";
+import userCoursesAPIImg from "../assets/userCoursesAPI.png";
+import petInfoImg from "../assets/infoPet.png";
 
 export const projects = [
   {
@@ -39,7 +42,14 @@ export const projects = [
     applicationLink: "https://m3-s4-entrega-kenzie-hub-bervalim.vercel.app/",
     repositoryLink: "https://github.com/bervalim/developers_hub",
     image: kenzieHubImg,
-    techs: ["React Js", "Javascript", "React-Router-DOM", "React-Hook-Form"],
+    techs: [
+      "React Js",
+      "React-Router-DOM",
+      "React-Hook-Form",
+      "Axios",
+      "Zod",
+      "React-Toastify",
+    ],
   },
   {
     id: 4,
@@ -69,5 +79,48 @@ export const projects = [
     repositoryLink: "https://github.com/bervalim/hamburgueria",
     image: kenzieBurgueImg,
     techs: ["ReactJS", "Sass", "Axios"],
+  },
+  {
+    id: 7,
+    name: "Sign Contact API",
+    description: "API",
+    applicationLink:
+      "https://desafio-fullstack-api.onrender.com/api-documentation/",
+    repositoryLink: "https://github.com/bervalim/sign-contact-api",
+    image: signContactAPIImg,
+    techs: [
+      "Node Js",
+      "TypeScript",
+      "Express.js",
+      "Prisma",
+      "PostgreSQL",
+      "bcrypt.js",
+    ],
+  },
+  {
+    id: 8,
+    name: "User Courses API",
+    description: "API",
+    applicationLink: "https://github.com/bervalim/userCourses-API",
+    repositoryLink: "https://github.com/bervalim/userCourses-API",
+    image: userCoursesAPIImg,
+    techs: [
+      "Node Js",
+      "TypeScript",
+      "Express.js",
+      "PG-FORMAT",
+      "Zod",
+      "Json-Web-Token",
+    ],
+  },
+  {
+    id: 9,
+    name: "PET INFO",
+    description: "aplicação",
+    applicationLink:
+      "https://kenzie-academy-brasil-developers.github.io/petinfobase_bervalim/",
+    repositoryLink: "https://github.com/bervalim/petInfo",
+    image: petInfoImg,
+    techs: ["HTML", "CSS", "JavaScript", "Fetch API"],
   },
 ];

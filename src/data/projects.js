@@ -10,6 +10,7 @@ import petInfoImg from "../assets/infoPet.png";
 import socialMediaImg from "../assets/redesocial.png";
 import openMusicImg from "../assets/opImage.png";
 import gitSearchImg from "../assets/gitSearchImg.png";
+import kanvasImg from "../assets/kanvasAPI.png";
 
 export const projects = [
   {
@@ -156,5 +157,22 @@ export const projects = [
     repositoryLink: "https://github.com/bervalim/gitSearch",
     image: gitSearchImg,
     techs: ["HTML", "CSS", "JavaScript", "Fetch API"],
+  },
+  {
+    id: 13,
+    name: "kanvas",
+    description: "aplicação",
+    applicationLink: "https://github.com/bervalim/kanvas-api",
+    repositoryLink: "https://github.com/bervalim/kanvas-api",
+    image: kanvasImg,
+    techs: [
+      "Python",
+      "Django",
+      "DRF",
+      "Postgres",
+      "Swagger",
+      "Concrete Views",
+      "Model Serializer",
+    ],
   },
 ];

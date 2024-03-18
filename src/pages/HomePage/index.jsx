@@ -9,17 +9,17 @@ import { projects } from "../../data/projects";
 import { ViewDetailsModal } from "../../components/Modals/ViewDetailsModal";
 
 export const HomePage = () => {
-  const [selectedProject, setSelectedProject] = useState(null); // Estado para armazenar o projeto selecionado
-  const [isModalOpen, setIsModalOpen] = useState(false); // Estado para controlar a abertura do modal
+  const [selectedProject, setSelectedProject] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleProjectDetailsClick = (project) => {
-    setSelectedProject(project); // Armazena o projeto selecionado no estado
-    setIsModalOpen(true); // Abre o modal
+    setSelectedProject(project);
+    setIsModalOpen(true);
   };
 
   const handleCloseModal = () => {
-    setSelectedProject(null); // Limpa o projeto selecionado
-    setIsModalOpen(false); // Fecha o modal
+    setSelectedProject(null);
+    setIsModalOpen(false);
   };
   return (
     <>
@@ -27,20 +27,18 @@ export const HomePage = () => {
         <BannerSection />
         <AboutMe />
         <TecnologySection />
-        {/* <ProjectSection /> */}
         <CarrouselSection
           handleProjectDetailsClick={handleProjectDetailsClick}
         />
         <LocationSection />
       </DefaultTemplate>
-      {isModalOpen &&
-        selectedProject && ( // Renderiza o modal se isModalOpen for true e houver um projeto selecionado
-          <ViewDetailsModal
-            projects={projects}
-            project={selectedProject}
-            onClose={handleCloseModal}
-          />
-        )}
+      {isModalOpen && selectedProject && (
+        <ViewDetailsModal
+          projects={projects}
+          project={selectedProject}
+          onClose={handleCloseModal}
+        />
+      )}
     </>
   );
 };

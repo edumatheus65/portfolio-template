@@ -18,7 +18,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /* gap: 1rem; */
   color: var(--grey-scale1);
   height: 2.4375rem;
   font-family: var(--font-primary);

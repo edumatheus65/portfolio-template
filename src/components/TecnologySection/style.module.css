@@ -8,11 +8,6 @@
   gap: 1.8rem;
 }
 
-/* .techList li {
-  border-radius: 1.5625rem;
-  border: 0.0625rem solid var(--grey-scale2);
-} */
-
 @media (min-width: 910px) {
   .techList {
     grid-template-columns: repeat(3, 1fr);

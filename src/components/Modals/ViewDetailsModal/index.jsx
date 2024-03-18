@@ -8,7 +8,7 @@ export const ViewDetailsModal = ({ projects, project, onClose }) => {
   const { t } = useTranslation();
 
   const selectedProject = projects.find((p) => p.id === project.id);
-  const descriptionKey = `project${selectedProject.id}Description`; // Usando a chave correta para a descrição
+  const descriptionKey = `project${selectedProject.id}Description`;
 
   return (
     <div className={styles.modalOverlay} role="dialog">

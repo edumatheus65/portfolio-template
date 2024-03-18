@@ -14,7 +14,7 @@ const resources = {
       SobreMim: "Sobre mim",
       SaibaMais: "Saiba Mais",
       QuemSou:
-        "Interessado por tecnologia desde pequeno, atualmente estou em transição de carreira para o desenvolvimento de software . Acredito que a tecnologia tem o poder de transformar o mundo, trazendo acessibilidade, disrupção e evolução para todos, dessa forma fico entusiasmado em fazer parte dessa transformação. Possuo experiência na construção de projetos full stack e familiaridade com conceitos de reatividade, autenticação, autorização, construção de documentação de APIs com swagger, e desenvolvimento de aplicações em linguagem single-thread, Vivências em utilização de Metodologias ágeis, como dailies ,1:1 e sprints",
+        "Interessado por tecnologia desde pequeno, atualmente estou em transição de carreira para o desenvolvimento de software . Acredito que a tecnologia tem o poder de transformar o mundo, trazendo acessibilidade, disrupção e evolução para todos, dessa forma fico entusiasmado em fazer parte dessa transformação. Possuo experiência na construção de projetos full stack e familiaridade com conceitos de reatividade, autenticação, autorização, construção de documentação de APIs com swagger, e desenvolvimento de aplicações em linguagem single-thread, Vivências em utilização de Metodologias ágeis, como dailies ,1:1 e sprints.",
       controleEstoque: "Controle de estoque de e-commerce",
       cadastroClient: "Cadastro de clientes/contatos",
       cadastroDevs: "Cadastro de desenvolvedores/tecnologia",
@@ -67,7 +67,7 @@ const resources = {
         "A full stack developer and technology enthusiast... Discover my projects below",
       SobreMim: "About me",
       QuemSou:
-        "Interested in technology since I was a kid, I'm currently transitioning my career into software development. I believe that technology has the power to transform the world, bringing accessibility, disruption and evolution to everyone, so I am excited to be part of this transformation. I have experience in building full stack projects and familiarity with concepts of reactivity, authentication, authorization, building API documentation with swagger, and developing applications in single-thread language, Experience in using agile methodologies, such as dailies, 1:1 and sprints",
+        "Interested in technology since I was a kid, I'm currently transitioning my career into software development. I believe that technology has the power to transform the world, bringing accessibility, disruption and evolution to everyone, so I am excited to be part of this transformation. I have experience in building full stack projects and familiarity with concepts of reactivity, authentication, authorization, building API documentation with swagger, and developing applications in single-thread language, Experience in using agile methodologies, such as dailies, 1:1 and sprints.",
       controleEstoque: "Inventory control",
       cadastroClient: "Customer/contact registration",
       cadastroDevs: "Developer/technology registration",

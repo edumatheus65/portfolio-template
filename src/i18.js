@@ -38,6 +38,12 @@ const resources = {
         "Esta API REST é responsável por fazer o gerenciamento de usuários e os respectivos cursos em que estão matriculados.Nesta apicação, aperfeiçoei os concentos de autenticação e autorização,bem como de serialização de dados.",
       project9Description:
         "Neste projeto,tive por objetivo desenvolver uma rede social para pets. Contruí 3 telas: login,cadastro e dashboard.Dentro da dashboard, o usuário é capaz de publicar,editar e excluir um post.Com esta aplicação, enriqueci os meus conhecimentos a respeito de consumo de APIs,autenticação e autorização.",
+      project10Description:
+        "Neste projeto,tive por objetivo desenvolver uma rede social simplificada.Os posts foram renderizados dinamicamento com DOM.Neste projeto pude aprofundar os conceitos de renderização dinâmica e responsividade.",
+      project11Description:
+        "Nesta aplicação,desenvolvi uma loja virtual de discos chamada Open Music. Nela, o usuário poderá filtrar por categoria musical e preço máximo dos produtos que ele quer visualizar, além disso, poderá selecionar o tema de interface visual que mais lhe agrada.Com este projeto,enriqueci os meus conhecimentos a respeito de CSS, métodos de array e persistência de dados no localstorage. ",
+      project12Description:
+        "Nesta aplicação,desenvolvi uma funcionalidade que é capaz de fazer consultas ao banco de dados da API do GitHub,buscando por um usuário específico e exibindo em tela os repositórios públicos deste usuário.Caso o usuário não seja encontrado, uma tela de usuário não encontrado deve ser exibida. ",
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
       Local: "Onde moro?",
@@ -83,6 +89,12 @@ const resources = {
         "This REST API is responsible for managing users and the respective courses in which they are enrolled. In this application, I improved the authentication and authorization concepts, as well as data serialization.",
       project9Description:
         "In this project, I aimed to develop a social network for pets. I built 3 screens: login, registration and dashboard. Within the dashboard, the user is able to publish, edit and delete a post. With this application, I enriched my knowledge regarding API consumption, authentication and authorization.",
+      project10Description:
+        "In this project, I aimed to develop a simplified social network. The posts were rendered dynamically with DOM. In this project I was able to delve deeper into the concepts of dynamic rendering and responsiveness.",
+      project11Description:
+        "In this application, I developed a virtual record store called Open Music. In it, the user will be able to filter by musical category and maximum price of the products they want to view, in addition, they will be able to select the visual interface theme that they like most. With this project, I enriched my knowledge about CSS, array methods and data persistence in localstorage. ",
+      project12Description:
+        "In this application, I developed a feature that is capable of querying the GitHub API database, searching for a specific user and displaying this user's public repositories on the screen. If the user is not found, a user not found screen should be displayed. ",
       Aplicacao: "Application",
       Repositorio: "Repository",
       Local: "Where do I live ?",

@@ -7,6 +7,9 @@ import kenzieBurgueImg from "../assets/kenzieBurguer.png";
 import signContactAPIImg from "../assets/signContactAPI.png";
 import userCoursesAPIImg from "../assets/userCoursesAPI.png";
 import petInfoImg from "../assets/infoPet.png";
+import socialMediaImg from "../assets/redesocial.png";
+import openMusicImg from "../assets/opImage.png";
+import gitSearchImg from "../assets/gitSearchImg.png";
 
 export const projects = [
   {
@@ -121,6 +124,37 @@ export const projects = [
       "https://kenzie-academy-brasil-developers.github.io/petinfobase_bervalim/",
     repositoryLink: "https://github.com/bervalim/petInfo",
     image: petInfoImg,
+    techs: ["HTML", "CSS", "JavaScript", "Fetch API"],
+  },
+  {
+    id: 10,
+    name: "Rede Social",
+    description: "aplicação",
+    applicationLink:
+      "https://kenzie-academy-brasil-developers.github.io/entrega-criando-rede-social_bervalim/",
+    repositoryLink:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/entrega-criando-rede-social_bervalim",
+    image: socialMediaImg,
+    techs: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 11,
+    name: "Open Music",
+    description: "aplicação",
+    applicationLink:
+      "https://kenzie-academy-brasil-developers.github.io/open-music-base_bervalim/",
+    repositoryLink: "https://github.com/bervalim/open-music",
+    image: openMusicImg,
+    techs: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 12,
+    name: "Git Search",
+    description: "aplicação",
+    applicationLink:
+      "https://kenzie-academy-brasil-developers.github.io/gitSearchBase_bervalim/",
+    repositoryLink: "https://github.com/bervalim/gitSearch",
+    image: gitSearchImg,
     techs: ["HTML", "CSS", "JavaScript", "Fetch API"],
   },
 ];

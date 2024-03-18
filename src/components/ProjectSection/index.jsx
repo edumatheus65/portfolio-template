@@ -18,7 +18,7 @@ export const ProjectSection = () => {
                 <ProjectCard
                   key={project.id}
                   name={project.name}
-                  descriptionKey={descriptionKey} // Passando a chave de tradução como propriedade
+                  descriptionKey={descriptionKey}
                   applicationLink={project.applicationLink}
                   repositoryLink={project.repositoryLink}
                 />

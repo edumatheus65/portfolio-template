@@ -14,7 +14,7 @@ const resources = {
       SobreMim: "Sobre mim",
       SaibaMais: "Saiba Mais",
       QuemSou:
-        "Interessado por tecnologia desde pequeno, atualmente estou em transição de carreira para o desenvolvimento de software. Acredito que a tecnologia tem o poder de transformar o mundo, trazendo acessibilidade, disrupção e evolução para todos, dessa forma fico entusiasmado em fazer parte dessa transformação. Possuo experiência na construção de projetos full stack e familiaridade com conceitos de reatividade, autenticação, autorização, construção de documentação de APIs com swagger, e desenvolvimento de aplicações em linguagem single-thread. Vivências em utilização de Metodologias ágeis (Scrum e Kanban).",
+        "Desde a minha infância, sempre fui fascinado pela tecnologia, e hoje em dia, atuo como desenvolvedor full-stack. Estou convicto de que a tecnologia possui o poder de causar um impacto transformador no mundo, proporcionando acessibilidade, promovendo disrupção e impulsionando a evolução para todos. Por isso, estou entusiasmado em desempenhar um papel ativo nessa jornada de transformação. Tenho uma sólida experiência na criação de projetos full stack e uma compreensão profunda de conceitos essenciais, como reatividade, autenticação e autorização, além de uma habilidade comprovada no desenvolvimento de aplicações em linguagem single-thread. Além disso, estou familiarizado com Metodologias Ágeis, como Scrum e Kanban, o que me permite adaptar-me rapidamente a ambientes dinâmicos e colaborativos.",
       controleEstoque: "Controle de estoque de e-commerce",
       cadastroClient: "Cadastro de clientes/contatos",
       cadastroDevs: "Cadastro de desenvolvedores/tecnologia",
@@ -48,7 +48,7 @@ const resources = {
         "Esta API Rest foi desenvolvida com intuito de gerenciar cursos e aulas de uma escola de modalidade EAD.",
       Aplicacao: "Aplicação",
       Repositorio: "Repositório",
-      Local: "Onde moro?",
+      Local: "Onde estou situado?",
       Download: "Baixar Currículo",
       Contato: "Entrar em Contato",
       VerDetalhes: "Ver detalhes",

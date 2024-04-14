@@ -18,7 +18,7 @@ export const LocationSection = () => {
                 title="Location Map"
                 style={{ width: "100%", height: "400px", maxWidth: "100%" }}
                 id="gmap_canvas"
-                src="https://maps.google.com/maps?q=Curitiba+Bigorrilho+864&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=S%C3%A3o+Paulo,+Campo+Limpo+Paulista,+V%C3%A1rzea+Paulista,+35&t=k&z=13&ie=UTF8&iwloc=&output=embed"
               ></iframe>
               <a href="https://online-timer.me/"></a>
               <br />

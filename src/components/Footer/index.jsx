@@ -16,18 +16,18 @@ export const Footer = () => {
             <h2 className="title md">{t("Contato")}</h2>
             <div className={styles.imageContent}>
               <div>
-                <a href="https://wa.me/41984969334">
+                <a href="https://wa.me/11964812565">
                   <img src={whatsappIcon} alt="whatsappIcon" />
                 </a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/bernardo-valim/">
+                <a href="https://www.linkedin.com/in/eduardo-matheus-silva-das-neves/">
                   <img src={linkedinIcon} alt="linkedinIcon" />
                 </a>
                 <span className="paragraph"></span>
               </div>
               <div>
-                <a href="https://github.com/bervalim">
+                <a href="https://github.com/edumatheus65">
                   <img src={githubIcon} alt="githubIcon" />
                 </a>
               </div>
@@ -36,7 +36,7 @@ export const Footer = () => {
           <div>
             <div className={styles.email}>
               <img src={emailIcon} />
-              <p className="paragraph">bernardogvalim@gmail.com</p>
+              <p className="paragraph">ematheusneves13@gmail.com</p>
             </div>
           </div>
         </div>

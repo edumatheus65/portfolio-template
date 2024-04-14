@@ -15,10 +15,10 @@ import kanvasImg from "../assets/kanvasAPI.png";
 export const projects = [
   {
     id: 1,
-    name: "Fashion Store",
-    description: "Controle de estoque",
-    applicationLink: "https://grupo7-fashion-store-two.vercel.app/",
-    repositoryLink: "https://github.com/bervalim/fashion-store",
+    name: "Fashin Store",
+    description: "E commerce",
+    applicationLink: "https://fashion-store-navy.vercel.app/",
+    repositoryLink: "https://github.com/edumatheus65/fashion-store",
     image: FashionStoreImg,
     techs: ["React Js", "React-Router-DOM", "Zod", "React-Hook-Form"],
   },
@@ -27,8 +27,8 @@ export const projects = [
     name: "Sign Contact",
     description: "Cadastro de clientes/contatos",
     applicationLink:
-      "https://desafio-fullstack-front-end-ber-valim.vercel.app/",
-    repositoryLink: "https://github.com/bervalim/sign-contact-front-end",
+      "https://sign-contact-front-cq58zg1is.vercel.app/",
+    repositoryLink: "https://github.com/edumatheus65/sign-contact-front-end",
     image: signContactImg,
     techs: [
       "React Js",

@@ -1,9 +1,9 @@
 import { username } from "../../data/user";
-import profileImage from "../../assets/profileImg.jpg";
+import profileImage from "../../assets/profileImg.jpeg";
 import styles from "./style.module.css";
 import Typewriter from "typewriter-effect";
 import { useTranslation } from "react-i18next";
-import curriculum from "../../assets/Currículo Bernardo.pdf";
+import curriculum from "../../assets/Currículo Eduardo.pdf";
 
 export const BannerSection = () => {
   const { t } = useTranslation();
@@ -11,7 +11,7 @@ export const BannerSection = () => {
   const handleDownloadCv = () => {
     const link = document.createElement("a");
     link.href = curriculum;
-    link.download = "Currículo_Bernardo.pdf";
+    link.download = "Currículo_Eduardo.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -16,7 +16,7 @@ export const Footer = () => {
             <h2 className="title md">{t("Contato")}</h2>
             <div className={styles.imageContent}>
               <div>
-                <a href="https://wa.me/11964812565">
+                <a href="https://wa.me/+5511964812565">
                   <img src={whatsappIcon} alt="whatsappIcon" />
                 </a>
               </div>
